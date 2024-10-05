@@ -1,14 +1,14 @@
 import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
-/*
 import personalInfoRoutes from './routes/personalInfoRoutes.js';
 import educationRoutes from './routes/educationRoutes.js';
 import workExperienceRoutes from './routes/workExperienceRoutes.js';
 import skillsRoutes from './routes/skillsRoutes.js';
 import projectsRoutes from './routes/projectsRoutes.js';
 import contactRoutes from './routes/contactRoutes.js';
-*/
+
+
 import { connectDB } from './config/db.js';
 
 
