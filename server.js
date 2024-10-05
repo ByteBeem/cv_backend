@@ -28,12 +28,12 @@ app.use(cors())
 
 
 
-app.use('/personal-info', personalInfoRoutes);
-app.use('/education', educationRoutes);
-app.use('/work-experience', workExperienceRoutes);
-app.use('/skills', skillsRoutes);
-app.use('/projects', projectsRoutes);
-app.use('/contact', contactRoutes);
+app.use('/api/personal-info', personalInfoRoutes);
+app.use('/api/education', educationRoutes);
+app.use('/api/work-experience', workExperienceRoutes);
+app.use('/api/skills', skillsRoutes);
+app.use('/api/projects', projectsRoutes);
+app.use('/api/contact', contactRoutes);
 
 
 
